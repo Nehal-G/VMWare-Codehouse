@@ -1,0 +1,131 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* Adding a dot */
+.dot {
+    position: absolute;
+    height: 450px;
+    width: 450px;
+    background-color: #FFD24C;
+    opacity: 71%;
+    border-radius: 50%;
+    left: -120px;
+    top: 76px;
+    z-index: -1;
+    
+  }
+
+
+/* For the Gradient Box */
+
+.gradient{
+    background: linear-gradient(180deg, rgba(178, 200, 223, 0) 0%, rgba(178, 200, 223, 0.3) 76.94%);
+    margin-bottom: 2rem;
+    z-index: -1;;
+}
+
+/* Title Styling */
+
+.title-div{
+    padding-left: 12%;
+    padding-top: 10%;
+}
+
+.title-div h2{
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-size: 3rem;
+    display: inline;
+
+}
+
+.title-div h1{
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-size: 4rem;
+
+}
+
+.inline{
+    display: inline;
+}
+
+
+/* FEATURE CARDS */
+
+.fcard{
+    border: none;
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.fcard h2{
+    font-size: 1rem;
+}
+
+.card-body{
+    background-color: #B2C8DF;
+}
+
+.fcard img{
+    width: 80px;
+    height: auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* FEATURES 2 PAGE */
+
+.f2{
+    text-align: center;
+    margin-top: 4%;
+}
+
+.f2 h1{
+    font-size: 2rem;
+}
+
+.main-img{
+    width: 150px;
+    height: auto;
+}
+
+.user{
+    background: rgba(178, 200, 223, 0.5);
+}
+
+.org{
+    background: rgba(255, 210, 76, 0.5);
+}
+
+.tick{
+    display: inline;
+}
+
+.footer{
+    background-color: #B2C8DF;
+    padding: 3%;
+}
+
+.signup-btn{
+    background-color: #B2C8DF;
+    border:#B2C8DF;
+    margin: 1.5rem;
+  }
+  
+  .signup-btn:hover{
+    background-color: #85a9ce;
+    border: #85a9ce;
+    margin: 1.5rem;
+  }
+  
+  .subline{
+    color: #B2C8DF;
+  }
